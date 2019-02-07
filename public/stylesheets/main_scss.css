@@ -218,11 +218,15 @@ ul.nav-pills {
   position: relative;
   background: #f1f1f1;
   margin: 0px auto;
-  width: 600px;
+  width: 70vw;
   text-align: center; }
 
 .linksContent p {
   font-size: 1.2rem; }
+.linksContent img{
+  max-width:200px;
+  min-width:100px;
+}
 
 .linksContentRow {
   padding-top: 80px; }
@@ -238,13 +242,13 @@ ul.nav-pills {
 .left-bg {
   background-color: #a8c6f4;
   left: 0; 
-  height: 350px;}
+  height: 300px;}
 
 .right-bg {
   background-color: #5988ad;
   background-position: right;
   right: 0; 
-  height: 350px;}
+  height: 300px;}
 
 .right-bg:before {
   content: "OR";
@@ -262,7 +266,7 @@ ul.nav-pills {
 
 .right-bg:after {
   content: " ";
-  height: 300px;
+  height: 250px;
   width: 1px;
   background-color: white;
   display: block;
@@ -305,7 +309,18 @@ ul.nav-pills {
   .card-header h2 {
     font-size: 1.1rem; }
   #main-content.active {
-    width: calc(100% - 250px); } 
+    width: calc(100% - 250px); }
+
+  .linksContent p {
+  font-size: 0.7rem; }
+
+  .left-bg {
+ 
+  height: 200px;}
+
+.right-bg {
+ 
+  height: 200px;} 
   
 }
 
