@@ -6,6 +6,17 @@ $(".sidebar").mCustomScrollbar({
             theme: "minimal"
 });
 
+ScrollReveal().reveal('.card' , {
+    
+    delay: 200,
+    duration: 500,
+    scale: 0.3,
+    viewFactor: 0.2,
+    viewOffset: {
+        top: -100
+    }
+});
+
 $('a[href*=\\#]').on('click', function(event){     
     event.preventDefault();
     smoothScrollingTo(this.hash);
