@@ -260,7 +260,7 @@ ul.nav-pills {
 
 .right-bg:after {
   content: " ";
-  height: 280px;
+  height: 350px;
   width: 1px;
   background-color: white;
   display: block;
@@ -284,18 +284,7 @@ ul.nav-pills {
 .right-bg:hover + .left-bg {
   width: 40%; }
 
-@media (max-width: 768px) {
-  .sidebar {
-    margin-left: -250px; }
-  .sidebar.active {
-    margin-left: 0; }
-  #main-content {
-    width: 100%;
-    left: 0; }
-  #main-content.active {
-    width: calc(100% - 250px); } }
-
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .sidebar {
     margin-left: -250px; }
   .sidebar.active {
@@ -313,6 +302,8 @@ ul.nav-pills {
   .card-header h2 {
     font-size: 1.1rem; }
   #main-content.active {
-    width: calc(100% - 250px); } }
+    width: calc(100% - 250px); } 
+  
+}
 
 /*# sourceMappingURL=main_scss.css.map */
