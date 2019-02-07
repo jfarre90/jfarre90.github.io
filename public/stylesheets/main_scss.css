@@ -322,6 +322,11 @@ ul.nav-pills {
  
   height: 200px;} 
   
+right-bg:after {
+  
+  height: 130px;
+  
+  }
 }
 
 /*# sourceMappingURL=main_scss.css.map */
