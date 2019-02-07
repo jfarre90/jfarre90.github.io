@@ -217,9 +217,8 @@ ul.nav-pills {
 .linksContent {
   position: relative;
   background: #f1f1f1;
-  margin: 40px auto;
-  width: 70vw;
-  height: 500px;
+  margin: 0px auto;
+  width: 600px;
   text-align: center; }
 
 .linksContent p {
@@ -233,16 +232,19 @@ ul.nav-pills {
   top: 0;
   bottom: 0;
   width: 50%;
-  transition: .25s ease; }
+  transition: .25s ease;
+  }
 
 .left-bg {
   background-color: #a8c6f4;
-  left: 0; }
+  left: 0; 
+  height: 350px;}
 
 .right-bg {
   background-color: #5988ad;
   background-position: right;
-  right: 0; }
+  right: 0; 
+  height: 350px;}
 
 .right-bg:before {
   content: "OR";
@@ -260,14 +262,15 @@ ul.nav-pills {
 
 .right-bg:after {
   content: " ";
-  height: 350px;
+  height: 300px;
   width: 1px;
   background-color: white;
   display: block;
   position: absolute;
   left: 0;
   right: 0;
-  top: 20px; }
+  top: 20px;
+  }
 
 .right-bg:after {
   right: 0; }
