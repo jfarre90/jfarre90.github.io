@@ -222,6 +222,10 @@ ul.nav-pills {
 	list-style: none;
 }
 
+.linksContent ul {
+  list-style: none;
+}
+
 .linksContent li {
   padding: 50px;
 	flex-basis: 33%;
