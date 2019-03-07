@@ -110,7 +110,7 @@ ul.nav-pills {
 #main-content {
   background: url("../static/img/bg2.png") repeat center center;
   width: calc(100% - 230px);
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   min-height: 100vh;
   transition: all 0.3s;
   top: 0;
@@ -146,7 +146,7 @@ ul.nav-pills {
 .even-section .content {
   padding: 120px 7vw;
   -webkit-transform: skew(0deg, 2.5deg);
-  -moz-transform: skew(0deg, 2.5deg);
+  -moz-transform: skew(0deg, 2..5deg);
   -ms-transform: skew(0deg, 2.5deg);
   -o-transform: skew(0deg, 2.5deg);
   transform: skew(0deg, 2.5deg); }
@@ -214,7 +214,7 @@ ul.nav-pills {
 .contactHeader {
   margin-bottom: 100px; }
 
-.linksContent {
+.linksGrid {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -222,21 +222,36 @@ ul.nav-pills {
 	list-style: none;
 }
 
-.linksContent ul {
+.linksGrid ul {
   list-style: none;
 }
 
-.linksContent li {
-  padding: 50px;
-	flex-basis: 33%;
+.linksGrid li {
+  padding: 0px;
+	flex-basis: 30%;
+	margin: 10px;
 	text-align: center;
+	transition: all 0.4s cubic-bezier(.22,-0.37,.66,1.35);
 }
 
-.linksContent li i{
-  color: #8c9eff;
+.linksGrid li i{
+  color: #050c2d;
+  opacity: 0.65;
+  transition: all 0.2s linear;
+  
 }
 
-.linksContent li h4{
+.linksGrid li:hover{
+  opacity: 1;
+  transform: scale(1.2);
+}
+.linksGrid li i:hover{
+  opacity: 1;
+  color: #3385ff;
+
+}
+
+.linksGrid li h4{
   font-size: 20px;
   margin: 25px 0;
 }
