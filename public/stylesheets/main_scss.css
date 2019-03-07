@@ -124,7 +124,7 @@ ul.nav-pills {
 
 #Title {
   text-align: center;
-  font-size: 5em;
+  font-size: 6em;
   margin-right: 150px;
   padding-top: 20vh;
   padding-bottom: 0; }
@@ -262,21 +262,49 @@ ul.nav-pills {
 	
 	100%{
 		opacity:1;
-		transform: translate(0px) scale(1);
+		transform: translate(0px);
 	}
 	
 }
 
 .sidebar li {
-  animation: reveal 0.3s ease-in 0.3s forwards;
+  animation: reveal 0.4s ease-in 0.3s forwards;
   opacity: 0;
   transform: translateX(-40px);
 }
 
-#titleSection .content {
-  animation: reveal 0.4s ease-in 0.7s forwards;
+.sidebar li:nthchild(1) {
+  animation-delay: 0.6s;
+}
+
+.sidebar li:nthchild(2) {
+  animation-delay: 0.9s;
+}
+
+.sidebar li:nthchild(3) {
+  animation-delay: 1.2s;
+}
+
+.sidebar li:nthchild(4) {
+  animation-delay: 1.5s;
+}
+
+.sidebar li:nthchild(5) {
+  animation-delay: 1.8s;
+}
+
+.sidebar li:nthchild(6) {
+  animation-delay: 2.1s;
+}
+
+.sidebar li:nthchild(7) {
+  animation-delay: 2.4s;
+}
+
+#titleSection .content h1,h4{
+  animation: reveal 0.5s ease-in 1s forwards;
   opacity: 0;
-  transform: translateY(-40px) scale(0.3);
+  transform: translateY(-40px) scale(0.1);
 }
 
 
