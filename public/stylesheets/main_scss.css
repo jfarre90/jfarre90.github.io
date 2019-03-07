@@ -31,6 +31,7 @@ ul.nav-pills {
 
 #titleSection {
   background: url("https://images.unsplash.com/photo-1529636444744-adffc9135a5e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efa349fec4ceef2ac553b081a4ffc8db&auto=format&fit=crop&w=854&q=80");
+  background-color: grey;
   background-size: cover;
   background-position: center;
   z-index: 999;
@@ -256,6 +257,29 @@ ul.nav-pills {
   margin: 25px 0;
 }
 
+/*Animating the page when loaded*/
+@keyframes reveal {
+	
+	100%{
+		opacity:1;
+		transform: translate(0px) scale(1);
+	}
+	
+}
+
+.sidebar li {
+  animation: reveal 0.3s ease-in 0.3s forwards;
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
+#titleSection .content {
+  animation: reveal 0.4s ease-in 0.7s forwards;
+  opacity: 0;
+  transform: translateY(-40px) scale(0.3);
+}
+
+
 
 @media (max-width: 960px) {
   .sidebar {
@@ -282,3 +306,4 @@ ul.nav-pills {
 }
 
 /*# sourceMappingURL=main_scss.css.map */
+
