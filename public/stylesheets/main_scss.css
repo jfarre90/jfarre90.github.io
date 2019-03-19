@@ -115,6 +115,7 @@ ul.nav-pills {
   left:0;
   width: 100vw;
   height: 150px;
+  margin-top: -200px;
 }
 
 .top-navbar .nav {
@@ -363,18 +364,13 @@ ul.nav-pills {
 @media (max-width: 960px) {
   .sidebar {
     margin-left: -250px; }
-  .sidebar.active {
-    margin-left: 0; }
   .linksContent p {
     font-size: 1.25rem; }
     
   .top-navbar {
-    margin-top: -200px;
+    margin-top: 0px;
+    width: 100%;
   }
-  .topnavbar.active {
-    margin-top:0;
-  }
-  
   
   h1 {
     font-size: 1.5rem; }
