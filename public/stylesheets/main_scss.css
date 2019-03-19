@@ -15,7 +15,7 @@ a, a:hover, a:focus {
 h1 {
   padding: 30px 0; }
 
-ul.nav-pills {
+.nav-pills {
   position: fixed; }
 
 .blockquote {
@@ -120,19 +120,37 @@ ul.nav-pills {
   background: #3385ff;
   color: #fff;
   position: fixed !important;
-  overflow-x: auto;
+  overflow-x: scroll;
   transition: all 0.3s;
 }
 
 .top-navbar .nav {
   display:flex;
   flex-direction:row;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
+  overflow-x: scroll hidden;
+  padding-top:15px;
   justify-content:space-around;
   align-items: center;
+  transition: all 0.3s;
 }
 
+.top-navbar ul li .active {
+  color: #6d7fcc;
+  background: #fff;
+  transform: translateX(5%);
+  border-left: 4px solid #ea4a4f; }
+  
+.top-navbar ul li i{
+  font-size:1.4em;
+}
 
+.top-navbar ul li:hover{
+  color: #6d7fcc;
+  background: #fff;
+  transition: all 0.3s;
+ }
+ 
 #main-content {
   background: url("../static/img/bg2.png") repeat center center;
   width: calc(100% - 230px);

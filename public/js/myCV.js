@@ -7,7 +7,9 @@ $(".sidebar").mCustomScrollbar({
 });
 
 $(".top-navbar").mCustomScrollbar({
-    theme: "minimal"
+    theme: "minimal",
+    axis: 'x'
+    
 });
 
 ScrollReveal().reveal('.card' , {
