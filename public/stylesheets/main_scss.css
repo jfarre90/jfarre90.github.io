@@ -110,6 +110,21 @@ ul.nav-pills {
   padding: 10px 25px;
   font-size: 1.1em; }
 
+.top-navbar {
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 150px;
+}
+
+.top-navbar .nav {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+}
+
+
 #main-content {
   background: url("../static/img/bg2.png") repeat center center;
   width: calc(100% - 230px);
@@ -352,6 +367,15 @@ ul.nav-pills {
     margin-left: 0; }
   .linksContent p {
     font-size: 1.25rem; }
+    
+  .top-navbar {
+    margin-top: -200px;
+  }
+  .topnavbar.active {
+    margin-top:0;
+  }
+  
+  
   h1 {
     font-size: 1.5rem; }
   #titleSection h4 {
