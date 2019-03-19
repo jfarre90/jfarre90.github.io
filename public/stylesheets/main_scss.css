@@ -114,21 +114,22 @@ ul.nav-pills {
   top:0;
   left:0;
   width: 100vw;
-  height: 150px;
+  height: 70px;
   margin-top: -200px;
   z-index: 999;
   background: #3385ff;
   color: #fff;
   position: fixed !important;
-  overflow-x: scroll;
+  overflow-x: auto;
   transition: all 0.3s;
 }
 
 .top-navbar .nav {
   display:flex;
   flex-direction:row;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   justify-content:space-around;
+  align-items: center;
 }
 
 

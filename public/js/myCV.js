@@ -6,6 +6,10 @@ $(".sidebar").mCustomScrollbar({
             theme: "minimal"
 });
 
+$(".top-navbar").mCustomScrollbar({
+    theme: "minimal"
+});
+
 ScrollReveal().reveal('.card' , {
     
     delay: 200,
