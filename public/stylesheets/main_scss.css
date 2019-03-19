@@ -219,8 +219,28 @@ ul.nav-pills {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: no-wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	list-style: none;
+	padding:0;
+	margin-top: 10px;
+}
+
+.portfolio-card-links li {
+  padding: 0px;
+	flex-basis: 30%;
+	text-align: center;
+	transition: all 0.4s cubic-bezier(.22,-0.37,.66,1.35);
+}
+
+.portfolio-card-links li i{
+  color: #050c2d;
+  opacity: 0.65;
+  transition: all 0.2s linear;
+}
+
+.portfolio-card-links li:hover{
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 .contactHeader {
@@ -233,10 +253,6 @@ ul.nav-pills {
 	justify-content: center;
 	list-style: none;
 }
-
-/*.linksGrid ul {*/
-/*  list-style: none;*/
-/*}*/
 
 .linksGrid li {
   padding: 0px;
@@ -257,6 +273,7 @@ ul.nav-pills {
   opacity: 1;
   transform: scale(1.2);
 }
+
 .linksGrid li i:hover{
   opacity: 1;
   color: #3385ff;
