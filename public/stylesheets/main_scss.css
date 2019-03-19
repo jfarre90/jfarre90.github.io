@@ -214,6 +214,15 @@ ul.nav-pills {
   border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
   font-size: 1.5rem; }
 
+.portfolio-card-links{
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+
 .contactHeader {
   margin-bottom: 100px; }
 
@@ -225,9 +234,9 @@ ul.nav-pills {
 	list-style: none;
 }
 
-.linksGrid ul {
-  list-style: none;
-}
+/*.linksGrid ul {*/
+/*  list-style: none;*/
+/*}*/
 
 .linksGrid li {
   padding: 0px;
