@@ -72,6 +72,7 @@ h1 {
   color: #fff;
   position: fixed !important;
   overflow-y: scroll;
+  overflow:hidden;
   transition: all 0.3s;
   webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -120,7 +121,7 @@ h1 {
   background: #3385ff;
   color: #fff;
   position: fixed !important;
-  overflow-x: scroll;
+  overflow-x: hidden;
   transition: all 0.3s;
 }
 

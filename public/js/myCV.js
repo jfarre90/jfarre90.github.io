@@ -1,3 +1,5 @@
+
+
 function smoothScrollingTo(target){
   $('html,body').animate({scrollTop:$(target).offset().top}, 500);
 }
@@ -7,9 +9,8 @@ $(".sidebar").mCustomScrollbar({
 });
 
 $(".top-navbar").mCustomScrollbar({
-    theme: "minimal",
+    theme: "light",
     axis: 'x'
-    
 });
 
 ScrollReveal().reveal('.card' , {
