@@ -116,6 +116,12 @@ ul.nav-pills {
   width: 100vw;
   height: 150px;
   margin-top: -200px;
+  z-index: 999;
+  background: #3385ff;
+  color: #fff;
+  position: fixed !important;
+  overflow-x: scroll;
+  transition: all 0.3s;
 }
 
 .top-navbar .nav {
