@@ -381,9 +381,9 @@ h1 {
 }
 
 #titleSection .content h1,h4{
-  animation: reveal 0.4s ease-in 1s forwards;
+  animation: reveal 1s ease-in-out 1s forwards;
   opacity: 0;
-  transform: translateY(-40px) scale(0.1);
+  transform: translateY(-40px);
 }
 
 
